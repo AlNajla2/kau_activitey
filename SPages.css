@@ -1,0 +1,148 @@
+
+
+body         
+            {
+            direction:rtl;
+			 background-image: url("../images/BackGround_sys1.jpg");
+    background-repeat: no-repeat;
+	 background-position:left top; 
+            }
+            form
+            {
+                width: 500px;
+                border-radius:10px;
+                border-color: red;
+                border: 1px solid;
+
+            }
+            .centertr
+            {
+               vertical-align: middle;
+                text-align: center;
+                margin-left: auto;
+                margin-right: auto;
+                align: center; 
+            }
+            .headerfont
+            {
+                font:bold;
+                font-size:xx-large;
+                color: red;
+
+            }
+            .td1font,.btnSavefont
+            {
+                color: black;
+                font-size:large;
+                font-style:normal;
+                font-weight: bold;
+            }
+             .btnSavefont
+            {
+                color: black;
+                font-size:15px;
+                font-style:normal;
+                font-weight: bold;
+            }
+            .text
+            {
+                width: 250px;
+                height: auto;
+                border:black;
+                border-style:solid;
+                border-width:1px;
+            }
+            .table,trHeader,trfooter
+            {
+                width: 100%;
+                height: 100%; 
+            }
+            .td1
+            {
+               width: 40%;
+               height: 100%;
+                  
+            }
+            .td2
+            {
+                 width: 60%;
+                height: 100%;  
+                text-align: right; 
+                vertical-align: right;
+                margin-left: auto;
+                margin-right: auto;
+            }
+            td.mainU
+{
+	 background-image: url("../images/mainCellBG.png");
+    background-repeat: repeat;
+	border-style: solid;
+	border-width: 1px ;
+	border-color: gray;
+}
+td.mainHead
+{
+	background-image: url("../images/bgSmall1.jpg");
+    background-repeat: no-repeat;
+	background-position:left top;
+	border-style: solid;
+	border-width: 2px ;
+	border-color: gray;
+}
+td.footer
+{
+font-size: 18 px;
+	font-weight: bold;	
+	 color: green;
+}
+table.mainHead
+{
+	border-collapse: separate;
+    border-spacing: 10px;
+}
+table.MainNav
+{
+	border-collapse: separate;
+    border-spacing: 10px;
+}
+td.nav:not(.active) {
+    background-color:white;
+    color: green;
+	border-right: 6px solid green;
+	border-bottom: 1px solid green;
+	font-size: 18 px;
+	font-weight: bold;
+}
+td.nav:hover:not(.active) {
+    background-color: green;
+    color: white;
+	font-size: 18 px;
+	font-weight: bold;
+}
+td.inner_page
+{
+	    position: fixed;
+        width: 500px;
+        height: 50px;
+        top: 30%;
+        left: 50%;
+        margin-top: -100px;  
+        margin-left: -250px;
+}
+table.course {
+   
+    border: 0;
+	position: absolute;
+	left:50%;
+	top: 25%;
+      }
+	  
+p.course {
+    font-weight: bold;
+	text-align :center;
+	left:25%;
+	top: 5%;
+	right:0%;
+	bottom: 25%;
+    position: relative;
+    }
